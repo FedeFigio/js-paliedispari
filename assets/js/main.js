@@ -3,7 +3,7 @@
 var parolaInseritaEl = document.getElementById("parolaInseritaEl")
 var palindromoEl = document.getElementById("palindromoEl")
 
-// var inserisciParola = prompt("inserisci una parola ed io controllero se e palindroma")
+var inserisciParola = prompt("inserisci una parola ed io controllero se e palindroma")
 
 parolaInseritaEl.innerHTML = "La parola che hai inserito è: " + inserisciParola
 
@@ -32,7 +32,7 @@ var inserisciPariDispari = prompt("scegli tra pari / dispari")
 var inserisciNumeroEl = parseInt(prompt("inserisci un numero"))
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione). 
-var randomUnoCinque = parseInt(5)
+var randomUnoCinque = parseInt(numeroRandom(1, 5))
 
 // Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
@@ -46,7 +46,7 @@ switch (inserisciPariDispari) {
 
         break;
     default:
-        console.log("popppooop");
+
         break;
 }
 
